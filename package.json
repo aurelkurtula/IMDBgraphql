@@ -38,7 +38,11 @@
     "webpack-livereload-plugin": "^1.0.0"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^5.0.1",
     "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }
