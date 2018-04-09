@@ -1,0 +1,21 @@
+
+.crew{
+	clear: both;
+	display: inline-block;
+	margin-left: 5%;
+	article{
+		width: 100px;
+		margin: auto 5px;
+		float: left;
+	}
+	img{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	h4{
+		-webkit-margin-before:0;
+		-webkit-margin-after:0;
+		font-size: 1rem;
+	}
+
+}

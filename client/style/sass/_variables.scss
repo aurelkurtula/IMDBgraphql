@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700,800');
+
+
+$background: #f1efe9;
+$grayBackground: #e7e5dd;
+$darkBackground: #dcd8ce;
+$black:#282828;
+$light: #8d8c8c;
+
+.cast{
+    width: 40%;
+    float: left;
+    margin: 0;
+    padding: 0;
+	li{
+		list-style: none;
+        margin: 55px auto;
+        position: relative;
+        height: 150px;
+
+    }
+    .castWrapper{
+        background: $darkBackground;
+        position: absolute;
+        right:0; top:0;
+        width: 87%;
+        height: 100%;
+        z-index: 0;
+    }
+    .castWrapperInfo{
+        width: 70%;
+        padding-top: 30px;
+        span{
+            display: block;
+            &:nth-child(1){
+                color: $black;
+                font-weight: 800;
+            }
+        }
+    }
+	img{
+        position: absolute;
+        left: 0;
+        top: 12%;
+        width: 80px;
+        z-index: 7654;
+		margin-right: 10px;
+	}
+}

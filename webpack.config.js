@@ -1,10 +1,12 @@
 import webpack from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import LiveReloadPlugin from 'webpack-livereload-plugin'
+import path from 'path';
+const buildPath = path.join(__dirname, 'dist');
 export default  {
   entry: './client/index.js',
   output: {
-    path: '/',
+    path: buildPath,
     filename: 'bundle.js'
   },
   module: {
